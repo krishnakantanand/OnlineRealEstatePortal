@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+		<bean id="loginValidator" class="com.neu.edu.controller.LoginValidator"></bean>
+		<bean id="buyerValidator" class="com.neu.edu.controller.BuyerValidator"></bean>
+		<bean id="sellerValidator" class="com.neu.edu.controller.SellerValidator"></bean>
+		<bean id="propertyValidator" class="com.neu.edu.controller.PropertyValidator"></bean>
+		<bean id="sellerLoginValidator" class="com.neu.edu.controller.SellerLoginValidator"></bean>
+		<bean id="viewPropertyValidator" class="com.neu.edu.controller.ViewPropertyValidator"></bean>
+</beans>

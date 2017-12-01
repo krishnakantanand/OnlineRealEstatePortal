@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(http://goldwallpapers.com/uploads/posts/new-york-background-wallpaper/new_york_background_wallpaper_008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.india{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 10;
+}
+
+.label1{
+	color: white;
+}
+
+.header{
+	position: absolute;
+	top: calc(6% - 35px);
+	left: calc(60% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 45px;
+	font-weight: 400;
+}
+
+.header div span{
+	color: red !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(12% - 75px);
+	left: calc(36% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	font-family: 'Exo', sans-serif
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 550px;
+	height: 30px;
+	background: transparent;
+
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 6px;
+
+}
+
+.login input[type=password]{
+	width: 550px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.txt{
+	width: 550px;
+	height: 30px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.txt1{
+	width: 550px;
+	height: 30px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: Black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+
+
+.login input[type=button]:hover{
+	opacity: 0.6;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
